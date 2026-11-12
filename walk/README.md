@@ -1,0 +1,3 @@
+# Walk prompt
+
+To run it yourself, paste the whole of [PROMPT.md](PROMPT.md) into a coding model or agent as one message and ask for a single self-contained HTML file. The prompt already contains the character model block and the walk block, so nothing else needs to be added; the same blocks are also available on their own as [CHARACTER-MODEL-BLOCK.md](CHARACTER-MODEL-BLOCK.md) and [WALK-BLOCK.md](WALK-BLOCK.md) if you want to append them to a prompt of your own. Open the resulting file in a desktop browser. Results from several models are in [results/](results/) and on the [gallery page](../index.html).

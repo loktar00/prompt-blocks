@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Walk prompt results</title>
+<style>
+:root{--bg:#fff;--fg:#1c1d21;--mut:#60646c;--card:#f3f4f6;--ln:#d9dbe0;--ac:#2456d6}
+@media(prefers-color-scheme:dark){:root{--bg:#16171b;--fg:#e8e9ec;--mut:#9a9ea8;--card:#202228;--ln:#33363e;--ac:#7fa6ff}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,sans-serif}
+main{max-width:1100px;margin:0 auto;padding:32px 16px}
+h1{margin:0 0 4px}p.lead{color:var(--mut);margin:0 0 24px}
+.show{width:100%;aspect-ratio:16/9;background:#000;border-radius:8px;margin:0 0 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--ln);border-radius:8px;padding:12px}
+.card video,.novid{width:100%;aspect-ratio:16/9;background:#000;border-radius:4px;display:flex;align-items:center;justify-content:center;color:#aaa}
+.card h2{font-size:18px;margin:10px 0 0}.card p{margin:0 0 8px;color:var(--mut)}
+a{color:var(--ac)}
+</style></head><body><main>
+<h1>Walk prompt results</h1>
+<p class="lead">The same one-shot prompt, <a href="walk/PROMPT.md">walk/PROMPT.md</a>, run on different models. Each card has the solo video and the page the model produced.</p>
+<video class="show" poster="walk/showcase.jpg" src="walk/showcase.mp4" muted loop controls preload="metadata"></video>
+<div class="grid">
+<article class="card"><video src="walk/results/fable52/fable52.mp4" muted loop controls preload="metadata"></video><h2>Fable 5.2</h2><p>One-shot</p><a href="walk/results/fable52/">Run it live</a></article>
+<article class="card"><video src="walk/results/opus55/opus55.mp4" muted loop controls preload="metadata"></video><h2>Opus 5.5</h2><p>One-shot</p><a href="walk/results/opus55/">Run it live</a></article>
+<article class="card"><video src="walk/results/deepseek/deepseek.mp4" muted loop controls preload="metadata"></video><h2>DeepSeek</h2><p>Agent run</p><a href="walk/results/deepseek/">Run it live</a></article>
+<article class="card"><video src="walk/results/flashnext-fp8/flashnext-fp8.mp4" muted loop controls preload="metadata"></video><h2>Flash-Next FP8</h2><p>Agent run</p><a href="walk/results/flashnext-fp8/">Run it live</a></article>
+<article class="card"><video src="walk/results/maya/maya.mp4" muted loop controls preload="metadata"></video><h2>Maya</h2><p>Agent run</p><a href="walk/results/maya/">Run it live</a></article>
+<article class="card"><video src="walk/results/strata/strata.mp4" muted loop controls preload="metadata"></video><h2>Strata</h2><p>Agent run</p><a href="walk/results/strata/">Run it live</a></article>
+</div></main></body></html>
