@@ -33,7 +33,7 @@ Procedural humanoid characters with a walk, run and fight-stance animation. File
 | Opus 5.5 | One-shot | [Run it live](https://loktar00.github.io/prompt-blocks/walk/results/opus55/index.html) | [<img src="walk/results/opus55/opus55.jpg" alt="Opus 5.5" width="200">](https://loktar00.github.io/prompt-blocks/walk/results/opus55/opus55.mp4) |
 | DeepSeek | DeepSeek Harness | [Run it live](https://loktar00.github.io/prompt-blocks/walk/results/deepseek/index.html) | [<img src="walk/results/deepseek/deepseek.jpg" alt="DeepSeek" width="200">](https://loktar00.github.io/prompt-blocks/walk/results/deepseek/deepseek.mp4) |
 | Flash-Next FP8 | DeepSeek Harness | [Run it live](https://loktar00.github.io/prompt-blocks/walk/results/flashnext-fp8/index.html) | [<img src="walk/results/flashnext-fp8/flashnext-fp8.jpg" alt="Flash-Next FP8" width="200">](https://loktar00.github.io/prompt-blocks/walk/results/flashnext-fp8/flashnext-fp8.mp4) |
-| DeepSeek V4.1 Flash EXL3 2.9 bpw | DeepSeek Harness | [Run it live](https://loktar00.github.io/prompt-blocks/walk/results/deepseek-v41-flash-exl3/index.html) | [<img src="walk/results/deepseek-v41-flash-exl3/deepseek-v41-flash-exl3.jpg" alt="Maya" width="200">](https://loktar00.github.io/prompt-blocks/walk/results/deepseek-v41-flash-exl3/deepseek-v41-flash-exl3.mp4) |
+| DeepSeek V4.1 Flash EXL3 2.9 bpw | DeepSeek Harness | [Run it live](https://loktar00.github.io/prompt-blocks/walk/results/deepseek-v41-flash-exl3/index.html) | [<img src="walk/results/deepseek-v41-flash-exl3/deepseek-v41-flash-exl3.jpg" alt="DeepSeek V4.1 Flash EXL3 2.9 bpw" width="200">](https://loktar00.github.io/prompt-blocks/walk/results/deepseek-v41-flash-exl3/deepseek-v41-flash-exl3.mp4) |
 
 <!-- results:start -->
 ## Fog results
